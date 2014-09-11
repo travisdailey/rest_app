@@ -15,12 +15,14 @@ gem 'pg', '~> 0.17.1', group: :production
 # Add 12 factor for Heroku
 gem 'rails_12factor',	group: :production
 
-
 # Use bootstrap for improving the look and feel
 gem 'bootstrap-sass'
 
 # Use stripe for e-commerce
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+# Figaro gem for securely managing credentials
+gem 'figaro'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
